@@ -27,10 +27,9 @@ This project develops a machine learning model to predict the number of medals w
 
 Install the required libraries:
 
-```bash
 pip install pandas seaborn scikit-learn matplotlib
 
-## 🚀 How to Run
+# 🚀 How to Run
 
 1. **Clone the repository**:
    ```bash
