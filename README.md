@@ -29,11 +29,6 @@ Install the required libraries:
 
 pip install pandas seaborn scikit-learn matplotlib
 
-# 🚀 How to Run
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/olympic-medal-prediction.git
 
 🔮 Future Improvements
 Incorporate additional features such as event counts, athlete demographics, and training resources.
