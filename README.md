@@ -1,46 +1,47 @@
-Olympic Medal Prediction using Machine Learning
-This project builds a machine learning model to predict the number of medals a country will win in the Olympics based on historical data. It follows a full end-to-end machine learning workflow, from hypothesis formulation to model evaluation, using Python, Pandas, and Scikit-learn.
+# 🏅 Olympic Medal Prediction using Machine Learning
 
-📚 Project Overview
-Goal: Predict the number of medals a country will win using features like number of athletes and previous medal counts.
+This project develops a machine learning model to predict the number of medals won by countries in the Olympics based on historical data. It demonstrates a complete machine learning workflow, including data preprocessing, model training, evaluation, and error analysis.
 
-Dataset: Historical Summer Olympics data (teams.csv).
+## 📚 Project Overview
 
-Tech Stack: Python, Jupyter Notebook, Pandas, Seaborn, Scikit-learn.
+- **Objective**: Predict Olympic medal counts using features such as the number of athletes and previous medal counts.
+- **Dataset**: Historical Summer Olympics dataset (`teams.csv`).
+- **Tools and Libraries**: Python, Pandas, Seaborn, Scikit-learn, Jupyter Notebook.
 
-🛠️ Key Steps
-Hypothesis Formation: Medal counts are predictable using team-level features.
+## 🛠️ Methodology
 
-Data Collection: Loaded and explored historical Olympics data.
+1. **Hypothesis Formation**: Medal counts are correlated with team-level statistics.
+2. **Data Preparation**: Cleaned missing values and selected relevant numerical features.
+3. **Exploratory Data Analysis**: Identified strong correlations between athletes, previous medals, and medal outcomes.
+4. **Model Training**: Built and trained a Linear Regression model.
+5. **Evaluation**: Achieved a mean absolute error (MAE) of approximately 3.3 medals on test data.
+6. **Error Analysis**: Investigated prediction errors across different countries to assess model reliability.
 
-Data Cleaning: Handled missing values and removed irrelevant columns.
+## 📊 Results
 
-Feature Engineering: Selected numeric features (athletes, previous_medals) for model training.
+- Model demonstrated strong performance for high-participation countries (e.g., USA, Russia).
+- Accuracy varied for countries with low athlete participation.
+- Proposed enhancements include additional feature engineering, alternative algorithms (Random Forest, Neural Networks), and athlete-level prediction modeling.
 
-Model Building: Trained a multivariate Linear Regression model.
+## 📦 Setup and Requirements
 
-Evaluation: Assessed model performance using Mean Absolute Error (MAE ≈ 3.3 medals).
+Install the required libraries:
 
-Analysis: Investigated prediction errors across different countries.
+```bash
+pip install pandas seaborn scikit-learn matplotlib
 
-📊 Results
-The model performed well for high-participation countries (e.g., USA, Russia).
+## 🚀 How to Run
 
-Accuracy varied for low-participation countries (higher error rates).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/olympic-medal-prediction.git
 
-Proposed further improvements include:
+🔮 Future Improvements
+Incorporate additional features such as event counts, athlete demographics, and training resources.
 
-Adding more features (e.g., event count, athlete-level predictions).
+Test different machine learning models and hyperparameters.
 
-Trying alternative models (Random Forest, XGBoost, Neural Networks).
+Build athlete-level models for improved prediction accuracy.
 
-📦 Requirements
-Python 3.x
-
-pandas
-
-seaborn
-
-scikit-learn
-
-matplotlib (for optional plotting)
+📜 License
+This project is licensed under the MIT License.
